@@ -11,7 +11,7 @@ Connection details for the MQTT broker are handled via the following environment
 + **MQTT_USER** _mqtt username_
 + **MQTT_PASS** _mqtt password_
 
-Since rtl_433 uses USB attached SDRs you'll need to pass through the device to docker (this requires the privileged flag).
+Since rtl_433 uses USB attached SDRs you'll need to pass through the device to container (this requires the privileged flag).
 
 For example, with docker compose:
 
