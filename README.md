@@ -6,10 +6,10 @@ Dockerfile to help containerize some functionality from https://github.com/merba
 
 Connection details for the MQTT broker are handled via the following environment variables:
 
-+ MQTT_HOST _host for mqtt broker_
-+ MQTT_PORT _mqtt port, defaults to 1883_
-+ MQTT_USER _mqtt username_
-+ MQTT_PASS _mqtt password_
++ **MQTT_HOST** _host for mqtt broker_
++ **MQTT_PORT** _mqtt port, defaults to 1883_
++ **MQTT_USER** _mqtt username_
++ **MQTT_PASS** _mqtt password_
 
 Since rtl_433 uses USB attached SDRs you'll need to pass through the device to docker (this requires the privileged flag).
 
