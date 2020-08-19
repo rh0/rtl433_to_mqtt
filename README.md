@@ -1,4 +1,4 @@
-# rtl_433 to MQTT :satellite: :arrow_right: :loudspeaker:
+# rtl_433 to MQTT :satellite: :loudspeaker:
 
 Dockerfile to help containerize some functionality from https://github.com/merbanan/rtl_433.  Specifically publishing recieved device messages to an MQTT broker.
 
